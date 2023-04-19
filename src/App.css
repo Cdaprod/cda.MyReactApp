@@ -1,0 +1,13 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh;
+  min-height: 2000px
+}
+h1, p {
+  color: black;
+}
+
+
+
+/* end of type animation */
