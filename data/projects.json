@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Web UI/UX",
+    "description": "A responsive personal blog website built with HTML, CSS, and JavaScript, focusing on modern UI/UX design.",
+    "technologies": ["HTML", "CSS", "JavaScript", "VS-Code"],
+    "image": "web_ui_ux_image.jpg",
+    "url": "https://yourblog.com"
+  },
+  {
+    "id": 2,
+    "title": "Cyber Security Analysis",
+    "description": "A cyber security analysis project that uses machine learning techniques to identify and mitigate threats in real-time.",
+    "technologies": ["Python", "Machine Learning", "Threat Analysis"],
+    "image": "cyber_security_analysis_image.jpg",
+    "url": "https://github.com/yourusername/cyber-security-analysis"
+  },
+  {
+    "id": 3,
+    "title": "Embedded Software Development",
+    "description": "An embedded software project for IoT devices, focusing on energy efficiency and secure communication.",
+    "technologies": ["C", "Embedded Systems", "IoT", "RTOS"],
+    "image": "embedded_software_image.jpg",
+    "url": "https://github.com/yourusername/embedded-software-development"
+  },
+  {
+    "id": 4,
+    "title": "Creative Content Development",
+    "description": "A multimedia project showcasing creative content developed using Adobe Creative Suite, Blender, and Stable Diffusion.",
+    "technologies": ["Adobe Creative Suite", "Blender", "Stable Diffusion"],
+    "image": "creative_content_image.jpg",
+    "url": "https://www.behance.net/yourusername"
+  },
+  {
+    "id": 5,
+    "title": "Full Stack",
+    "description": "A full stack web application that integrates front-end and back-end technologies for seamless user experience.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB"],
+    "image": "full_stack_image.jpg",
+    "url": "https://github.com/yourusername/full-stack-project"
+  }
+]

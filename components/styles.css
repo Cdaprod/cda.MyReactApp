@@ -1,0 +1,12 @@
+/* TypingAnimation.css */
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.1em solid;
+}
+
+.typewriter-no-cursor {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: none;
+}

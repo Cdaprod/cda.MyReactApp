@@ -23,30 +23,40 @@ const CardRow = styled.div`
 
 const Card = styled.div`
   background-color: #fff;
+  text-align: center;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   flex: 1;
+  textShadow: 0 0 5px rgba(0, 0, 0, 0.5);
 
   &:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
   }
 `;
 
+
+
 const ResponsiveCards = ({ cards }) => {
   return (
-    <CardGrid>
-      <CardRow>
-        {cards.map((card, index) => (
-          <Card key={index}>
-            <h3>{card.title}</h3>
-            <p>{card.content}</p>
-          </Card>
-        ))}
-      </CardRow>
-    </CardGrid>
+    <div>
+      {cards.map((card, index) => (
+        <div key={index} className="card">
+          <h2>{card.title}</h2>
+          <p>{card.content}</p>
+          <img src={card.image} alt={card.title} />
+          <ul>
+            {card.technologies.map((tech, techIndex) => (
+              <li key={techIndex}>{tech}</li>
+            ))}
+          </ul>
+          <a href={card.url} target="_blank" rel="noopener noreferrer">
+            View Project
+          </a>
+        </div>
+      ))}
+    </div>
   );
 };
-
 
 export default ResponsiveCards;
