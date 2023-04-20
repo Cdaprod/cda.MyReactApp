@@ -1,9 +1,9 @@
 import './App.css';
 import HeroPage from '../components/HeroPage.jsx';
 import SocialLinks from '../components/SocialLinks.jsx';
-import ResponsiveCards from '../components/ResponsiveCards.jsx';
+import ResponsiveCards from '../components/ResponsiveImageCards.jsx';
 import TypingAnimation from '../components/TypingAnimation.jsx';
-import projectsData from '../data/projects.json';
+import projectsData from '../data/projects(default).json';
 
 function App() {
   const cards = projectsData.map((project) => {
@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       <HeroPage
-        title="Welcome to my website!"
+        title="My name is David Cannan!"
         subtitle="Explore my portfolio and learn more about me."
         backgroundImage="https://example.com/hero-bg.jpg"
       />
